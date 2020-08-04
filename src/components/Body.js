@@ -32,11 +32,10 @@ const LittleBox = props => {
 	return (
 		<div
 			style={{
-				display: "table-cell",
+				display: "flex",
 				backgroundColor: props.color || "white",
 				width: "100px",
 				height: "100px",
-				display: "flex",
 				margin: "15px",
 				alignItems: "center",
 				justifyContent: "center",
