@@ -6,8 +6,10 @@ class Body extends Component {
 			<div style={{
 				backgroundColor: "pink",
 				width: "90vw",
-				height: "75vh"
-			}}>
+				height: "75vh",
+				boxSizing: "border-box",
+				padding: "15px"
+}}>
 				<img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_1500,h_1000/https://www.cicis.com/wp-content/uploads/2019/02/pepperoni_pizza_3-4_c.png" width="25%" /><br clear="all" />
 				PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA PIZZA IPSUM PEPPERONI LOREM<br />
 				<div style={{
@@ -15,7 +17,7 @@ class Body extends Component {
 					alignItems: "center",
 					justifyContent: "center",
 					marginTop: "25px"
-				}}>
+					}}>
 					<LittleBox color="red">SQUARE 1</LittleBox>
 					<LittleBox color="green">SQUARE 2</LittleBox>
 					<LittleBox color="blue">SQUARE 3</LittleBox>
