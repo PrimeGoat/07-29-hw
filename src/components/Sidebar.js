@@ -14,7 +14,8 @@ class Sidebar extends Component {
 				height: "75vh"
 			}}>
 				<ul style={{
-					listStyleType: "none"
+					listStyleType: "none",
+					paddingLeft: "5px"
 				}}>
 				{this.favFoods.map(entry => {
 					return (
