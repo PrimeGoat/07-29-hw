@@ -5,7 +5,7 @@ class Body extends Component {
 		return (
 			<div style={{
 				backgroundColor: "pink",
-				width: "90%",
+				width: "90vw",
 				height: "75vh"
 			}}>
 				<img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_1500,h_1000/https://www.cicis.com/wp-content/uploads/2019/02/pepperoni_pizza_3-4_c.png" width="25%" /><br clear="all" />
