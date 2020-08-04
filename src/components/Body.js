@@ -38,7 +38,8 @@ const LittleBox = props => {
 				margin: "15px",
 				alignItems: "center",
 				justifyContent: "center",
-				color: props.color ? "white" : "black"
+				color: props.color ? "white" : "black",
+				border: "2px solid black"
 		}}
 		>
 			{props.children}
