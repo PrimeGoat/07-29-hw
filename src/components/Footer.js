@@ -6,6 +6,8 @@ class Footer extends Component {
 			<div style={{
 				backgroundColor: "cyan",
 				height: "5vh",
+				boxSizing: "border-box",
+				padding: "5px"
 			}}>
 				Copyright &copy; 2020 NOVATAR the VIOLATOR
 			</div>
